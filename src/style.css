@@ -1,0 +1,128 @@
+.collapsible-list-section-content-NSUotoA.content-rbGLAm9.shipment-items-section-content-_ec0iBt {
+  width: 100%;
+  max-width: 813px;
+  overflow: auto;
+}
+.react-table-wrapper-bmg-extension {
+  width: 1600px;
+}
+
+button.content-bmg-btn span{
+  font-weight: 600;
+}
+button.content-bmg-btn {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.elements-bmg-wrapper{
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 8px;
+  min-height: 80px;
+  max-height: 200px;
+  overflow: auto;
+}
+.bmg-progress .ant-progress-inner {
+  width: 100px;
+}
+.bmg-remaining-quantity {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+}
+button.bmg-reset-btn {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 0;
+  height: fit-content !important;
+}
+.bmg-dimensions-input{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.bmg-remaining-quantity p {
+  margin: 0px;
+}
+
+.shipment-items-section-content-pfZUDDp{
+  max-width: 800px;
+}
+.bmg-remaining-quantity-value{
+  margin-top: 0px !important;
+}
+.react-table-body-row-NZJp4Zd div :is(span, p) {
+  font-size: 14px !important;
+}
+.bmg-remaining-quantity {
+  padding-top: 4px;
+}
+
+.collaspe-item-bmg-extension img{
+  object-fit: contain !important;
+}
+.collaspe-item-bmg-extension {
+  display: grid !important;
+  grid-template-columns:
+    130px
+    130px
+    120px
+    130px
+    130px
+    130px
+    130px
+    130px
+    130px
+    130px
+    170px;
+  column-gap: 0;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.collaspe-item-bmg-extension > div {
+  min-width: 100% !important;
+  justify-content: center;
+  padding: 8px 0;
+  background: #f5f5f5;
+  display: flex !important;
+}
+
+.react-table-body-row-bmg-extension > div > div:last-child {
+  padding-right: 15px !important;
+}
+.react-table-body-row-bmg-extension > div{
+  display: grid !important;
+  grid-template-columns:
+    130px
+    130px
+    120px
+    130px
+    130px
+    130px
+    130px
+    130px
+    130px
+    130px
+    130px;
+  column-gap: 0;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.react-table-body-row-bmg-extension > div > div {
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  display: flex !important;
+}
+
+.react-table-body-row-bmg-extension {
+  width: 174% !important;
+}

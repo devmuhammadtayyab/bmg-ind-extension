@@ -1,0 +1,143 @@
+.package-set {
+  position: relative;
+}
+
+.package-container {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.set-overlay {
+  min-height: 100px;
+  max-height: 400px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  grid-row-gap: 16px;
+}
+
+.no-data-found {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.no-data-found p {
+  margin: 0px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.bmg-danger-link {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  font-size: 14px;
+  color: red;
+}
+
+.body {
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.row-label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.dimensions,
+.weight {
+  display: flex;
+  align-items: center;
+}
+
+.dimension label {
+  font-size: 12px;
+}
+.dimension,
+.unit {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+  grid-row-gap: 4px;
+}
+
+.number-input {
+  position: relative;
+}
+
+.number-input input {
+  width: 60px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: right;
+}
+
+.custom-show-modal-content h2 {
+  margin: 0px;
+  margin-bottom: 16px;
+}
+.custom-show-modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  z-index: 1001;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  width: 480px;
+}
+.confirm-btn{
+  background-color: #007bff;
+  color: #fff;
+}
+.confirm-btn:hover{
+  background-color: #007bff;
+  color: #fff;
+}
+
+.ant-spin.ant-spin-spinning.css-1pg9a38 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background: #d4c3c38a;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-spin.ant-spin-spinning.bmg-add-quantity-dropdown-spinner-pop {
+  width: 32px;
+  min-width: 32px !important;
+}
